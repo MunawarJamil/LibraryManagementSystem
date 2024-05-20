@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Management System</title>
+   
+  </head>
+  <body>
+    <section class="top">
+      <div class="logo">Library Management</div>
+    </section>
+ 
+  <section class="home">
+    <h1>Book Management</h1>
+    <h3>Add books</h3>
+  </section>
+
+
+  <form  id="libraryForm" class="hero" action="">
+    <div class="">
+        <label class="labels" for="bookName">Name</label>
+        <label class="labels" for="author">Author</label>
+        <label class="labels" for="publisher">Publisher</label>
+        <label class="labels" for="publishing_date">Publishing Date</label>
+    </div>
+    <div class="input-fields">
+        <input name="bookName" id="bookName" type="text" placeholder="bookName">
+        <input name="author" id="author" type="text" placeholder="Author">
+        <input name="publisher" id="publisher" type="text" placeholder="Publisher">
+        <input name="date" id="publishing_date" type="date">
+        <button type="submit">Add Book</button>
+    </div>
+</form>
+
+
+
+
+    <!-- when user will add new books -->
+    <div class="details-content">
+      <section class="details-section">
+        <div class="details">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Author</th>
+              <th>Book</th>
+              <th>Publisher</th>
+              <th>Publishing Date</th>
+              <th>Edit</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+        </div>
+      </section>
+<!-- ===========div is written in js file=================== -->
+      <section class="added-books">
+         
+        
+
+
+        <!-- ====================== -->
+        <div class="available">
+          <h3>Books available in library</h3>
+        </div>
+
+        <div  id="author_details">
+
+        </div>
+      </section>
+    </div>
+
+    <!-- last section -->
+    <section class="last-section">
+      <div class="end-buttons">
+        <p class="button-bottom">Home</p>
+        <p class="button-bottom">Author</p>
+        <p class="button-bottom">Publisher</p>
+      </div>
+    </section>
+  </body>
+</html>
+<script src="index2.js"></script>

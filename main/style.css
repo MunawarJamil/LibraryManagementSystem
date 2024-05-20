@@ -1,0 +1,246 @@
+/* Top section  */
+
+*{
+    margin: 0;
+    padding: 0%;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: rgb(234, 227, 188);
+}
+.top{
+    display:flex ;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background: rgb(197, 155, 16);
+
+}
+.logo{
+    padding: 50px;
+    font-weight: bolder;
+    font-family: serif;
+    color: aliceblue;
+    
+    font-size: xx-large;
+    font-weight: bold;
+}
+/* home */
+.home h1{
+    margin: 30px;
+    
+    margin-left: 5%;
+    
+    font-size: xx-large;
+    color: gray;
+     
+}
+.home h3{
+    margin-left: 38%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    color: gray;
+}
+
+
+/* Hero ============================== */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+     gap: 5px;
+     
+}
+.hero button{
+     color: white;
+     background: orange;
+     height: 38px;
+     
+}
+.labels {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding: 18px; 
+    font-size: large;
+    font-weight: bold;
+    color: gray;
+    
+  }
+ 
+ 
+.input-fields{
+    display: flex;
+    flex-direction: column;
+     margin-top: 35px;
+     padding-top: 10px;
+     
+}
+.input-fields input {
+    margin-bottom: 10px; /* Add vertical gap between input fields */
+    padding: 13px;
+    width: 200px;
+    
+  }
+
+ 
+ /* ========================= */
+.details-section{
+    width: 70%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+     
+   
+  
+}
+ 
+.details-content .details-section:first-child {
+    background: rgb(214, 141, 6);
+    height: 30px;
+}
+.author{
+    margin-left: 110px;
+}
+.pub{
+    margin-left: 50px;
+}
+.book{
+    margin-left: 50px;
+}
+ 
+  .tableRow{
+    display: flex;
+    justify-content: space-between;
+ 
+    
+    font-size: larger;
+    
+
+}  
+/* =========== */
+.added-books {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+      
+}
+
+.book-row {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    
+   
+}
+.btnh{
+    background: rgb(214, 141, 6);
+    width: 70px;
+    height: 30px;
+     margin-right: 20px;
+    color: #ccc;
+}
+.book-row p {
+    margin: 0;
+ width: 110px;
+   
+    padding: 5px;
+    
+    border: 1px solid #ccc;
+}
+.book-row .first-child {
+    border-left: none; /* Remove left border for the first child */
+}
+.book-row button {
+    margin-left: 10px;
+}
+
+.details-content {
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.details-section {
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.details table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.details th, .details td {
+    border-right: 1px solid #ddd;
+    padding: 3px;
+    text-align: left;
+    padding-right: 60px;
+    
+}
+
+.details th {
+   padding-bottom: 4px;
+}
+
+ 
+
+/* ================ */
+
+ 
+ 
+
+.btn-p{
+    background: rgb(151, 132, 7);
+    width: 10px;
+    height: 22px;
+    padding-left: 40px;
+    padding-top: 3px;
+    color: white;
+    border-radius: 2px;
+
+}
+
+.added-books{
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 70%;
+}
+.available{
+  margin-top: 20px;
+    margin-left: 40%;
+     
+}
+
+.last-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+     
+}
+
+.end-buttons{
+    display: flex;
+    gap: 60px;
+    
+}
+
+.button-bottom{
+    background: rgb(151, 132, 7);
+     width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       height: 35px;
+    margin-bottom: 20px;
+       
+       color: white;
+    border-radius: 2px;
+}
